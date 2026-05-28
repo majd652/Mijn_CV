@@ -1,0 +1,157 @@
+:root{
+    font-size: 100%;
+}
+.info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(61, 57, 57);
+}
+body{
+    margin: 0% 1.5%;
+    background-image: url(images/background\ Image\ .png);
+}
+.socail-media{
+    display: flex;
+    align-items: center;
+    background-color:rgba(148, 204, 204, 0.278);
+    gap: 1.25rem; 
+    box-shadow: 0 3px 5px  rgba(0, 0, 0, 0.5);
+    height: 11vh;
+    margin: 0% -1.5% 1%;
+}
+li{
+    list-style: none;
+}
+h4{
+    margin: auto auto;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(61, 57, 57, 0.674);
+}
+h4 span{
+    font-size: 1.5em;
+    margin-right: 0.2em;
+    
+}
+h2{
+    font-size: 1.4em; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(61, 57, 57);
+}
+.logo{
+    width: 3.125rem; 
+    margin-left: 0.625rem; 
+}
+.contaner{
+    display: flex;
+}
+.left-column{
+    display: flex;
+    margin-right: 10%;
+}
+.divider{
+    width: 0.625rem; 
+    background-color: gray;
+    margin-left: 1.5rem; 
+}
+.right-column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.line{
+    height: 0.125rem; 
+    background-color: gray;
+    margin-top: 1.25rem; 
+}
+.line-contant{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem; 
+}
+
+h4{
+    margin: auto auto; 
+    font-size: 2em; 
+    display: flex;
+    align-items: center;   
+}
+h2 li{
+  padding-bottom: 3%;
+  
+}
+.logo{
+    width: 3.125rem;
+    margin-left: 0.625rem;
+}
+.prs-pic{
+    margin-top: 0.125rem;
+    margin-left: 0.375rem;
+    border: 0.2rem solid gray;
+    width: 14.875rem;
+    border-radius: 20%;
+    background-color: rgba(130, 209, 209, 0.338);
+}
+.left-column{
+   display: flex;
+   margin-right: 35.625rem;
+   margin-left: 0.625rem;
+   margin-right: 10%;}
+.github {
+    text-decoration: none;
+     color: rgb(69, 69, 69);
+}
+.du{
+    width: 100%;
+    border-radius: 1.25rem;
+    background-color: rgba(128, 128, 128, 0.849);
+
+}
+.Dutch{
+    height: 1.25rem;
+    background-color:  rgb(130, 209, 209);
+    border-radius: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+.En{
+    width: 100%;
+    border-radius: 1.25rem;
+    background-color: rgba(128, 128, 128, 0.849);
+}
+.English{
+    height: 1.25rem;
+    background-color:  rgb(130, 209, 209);
+    border-radius: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+.highlight{
+display: block;
+line-height: 1;
+font-size: 1.2em;
+width: fit-content;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:  rgba(61, 57, 57, 0.674);
+}
+p1{
+    font-size: 0.8em;
+    color: rgba(69, 69, 69, 0.755);
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+    
+
+        
+   
+
+
+
