@@ -3,7 +3,6 @@
 }
 .info{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(61, 57, 57);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,19 +23,7 @@ body{
 li{
     list-style: none;
 }
-h4{
-    margin: auto auto;
-    font-size: 2em;
-    display: flex;
-    align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgba(61, 57, 57, 0.674);
-}
-h4 span{
-    font-size: 1.5em;
-    margin-right: 0.2em;
-    
-}
+
 h2{
     font-size: 1em; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -72,13 +59,6 @@ h2{
     justify-content: center;
     margin-top: 1.25rem; 
 }
-
-h4{
-    margin: auto auto; 
-    font-size: 2em; 
-    display: flex;
-    align-items: center;   
-}
 .logo{
     width: 3.125rem;
     margin-left: 0.625rem;
@@ -95,25 +75,17 @@ h4{
    margin-right: 10%;}
 .github {
     text-decoration: none;
-     color: rgb(69, 69, 69);
+    color: black;
+    transition: color 1s ease;
+}
+.github:hover {
+    color: rgb(100, 100, 100);
 }
 .du{
     width: 100%;
     border-radius: 1.25rem;
     background-color: rgba(128, 128, 128, 0.849);
 
-}
-.Dutch{
-    height: 1.25rem;
-    background-color:  rgb(130, 209, 209);
-    border-radius: 1.25rem;
-    display: flex;
-    justify-content: center;
-}
-.En{
-    width: 100%;
-    border-radius: 1.25rem;
-    background-color: rgba(128, 128, 128, 0.849);
 }
 .English{
     height: 1.25rem;
@@ -122,13 +94,17 @@ h4{
     display: flex;
     justify-content: center;
 }
-.highlight{
+h1{
 display: block;
 line-height: 1;
 font-size: 2,5em;
 width: fit-content;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color:  rgba(61, 57, 57, 0.674);
+color:  black;
+}
+h1 span {
+    font-style: italic;
+    font-size: 1.5em;
 }
 p{
     font-size: 1rem;
