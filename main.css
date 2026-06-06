@@ -5,7 +5,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: 0% 2%;
 }
 body{
     margin: 0% 1.5%;
@@ -23,17 +23,15 @@ body{
 li{
     list-style: none;
 }
-
-h2{
-    font-size: 1em; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .logo{
     width: 3.125rem; 
     margin-left: 0.625rem; 
 }
-.contaner{
+.container{
     display: flex;
+    justify-content:center;
+    
+    
 }
 .left-column{
     display: flex;
@@ -47,7 +45,7 @@ h2{
 .right-column{
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
+    margin: 0% 0% 5% 5%;
 }
 .line{
     height: 0.125rem; 
@@ -67,6 +65,8 @@ h2{
     border: 0.2rem solid gray;
     width: 16.875rem;
     border-radius: 20%;
+    display: flex;
+   
 }
 .left-column{
    display: flex;
@@ -108,13 +108,25 @@ h1 span {
     color:rgba(114, 225, 197, 0.766)
 }
 p{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
 }
 .projects li{
    margin: 2%;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.1em;
+   margin: 2%;
+}
+
+ul li span{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+p1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 
