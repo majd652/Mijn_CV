@@ -8,7 +8,7 @@
     margin: 0% 2%;
 }
 body{
-    margin: 0% 1.5%;
+    margin: 0% 1.5% 2% 1.5%;
     background-image: url(images/background\ Image\ .png);
 }
 .socail-media{
@@ -30,12 +30,6 @@ li{
 .container{
     display: flex;
     justify-content:center;
-    
-    
-}
-.left-column{
-    display: flex;
-    margin-right: 10%;
 }
 .divider{
     width: 0.625rem; 
@@ -63,16 +57,13 @@ li{
 }
 .prs-pic{
     border: 0.2rem solid gray;
-    width: 16.875rem;
-    border-radius: 20%;
-    display: flex;
+    width: 15.875rem;
+    border-radius:20%;
    
 }
 .left-column{
    display: flex;
-   margin-right: 35.625rem;
-   margin-left: 0.625rem;
-   margin-right: 10%;}
+}
 .github {
     text-decoration: none;
     color: black;
@@ -128,6 +119,7 @@ p1{
     justify-content: center;
     margin-top: 2rem;
 }
+
 
 
 
