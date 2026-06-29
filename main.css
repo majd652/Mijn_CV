@@ -13,19 +13,25 @@ body{
 }
 .socail-media{
     display: flex;
-    align-items: center;
+    gap: 1rem;
     background-color:rgba(148, 204, 204, 0.278);
-    gap: 1.25rem; 
+    align-items: center;
     box-shadow: 0 3px 5px  rgba(0, 0, 0, 0.5);
     height: 11vh;
     margin: 0% -1.5% 1%;
+    
 }
 li{
     list-style: none;
 }
-.logo{
-    width: 3.125rem; 
-    margin-left: 0.625rem; 
+.github-logo{
+    width: 3.125rem;
+    display: flex;
+    
+}
+.cv-logo{
+    width: 3.125rem;
+    margin-left: 0.625rem;
 }
 .container{
     display: flex;
