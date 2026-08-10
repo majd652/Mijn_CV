@@ -71,7 +71,6 @@ li{
    display: flex;
 }
 .github {
-    text-decoration: none;
     color: black;
     transition: color 1s ease;
 }
@@ -119,6 +118,23 @@ p{
 ul li span{
     font-size: 1.2em;
     font-weight: bold;
+}
+ul li button{
+    margin-left: 1rem;
+    border: solid 0.1rem gray;
+    background-color: rgba(19, 220, 255, 0.938);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+ul li button:hover{
+    background-color: rgba(8, 150, 175, 0.315);
+}
+ul li button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
 }
 p1{
     display: flex;
